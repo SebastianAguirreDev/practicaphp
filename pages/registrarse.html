@@ -1,0 +1,101 @@
+<!DOCTYPE html> <!--esta etiqueta es la que indica que todo esta pagina web esta realizada en html5-->
+<html lang="es"><!--esta es la etiqueta padre de toda la pagina web y tiene un atributo que es lang, lenguaje y lo cambiamos a español-->
+    <!--configuraciones para el navegador-->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--titulo de la pagina web-->
+        <title>Registrarse | CodoFlix</title>
+        <!--etiqueta del icono de la pagina web-->
+        <link rel="shortcut icon" href="../favicon.ico" type="image/x-icon">      
+        <!--estilos de css-->
+        <link rel="stylesheet" href="../css/estilos.css">
+    </head>
+    <!--etiqueta contenedora de la estructura semantica de la pagina web que vera el usuario-->
+    <body>
+        <header>
+            <!--etiqueta contenedora de la nav-->
+            <nav>
+               <a href="../index.html">
+             
+                    <img src="../assets/img/logo_640.png" alt="logo imagen" width="100">
+               </a>
+               
+                <!--listas ordenadas y desordenadas-->
+                <ul>
+                   <li>
+                     <a href="">Tendencia</a>
+                   </li>
+                   <li>
+                     <a href="./registrarse.html">Registrarse</a>
+                   </li>
+                   <li>
+                     <a href="./iniciosesion.html">Iniciar Sesión</a>
+                   </li>
+                   <li>
+                      <a href="https://www.google.com.ar">Google</a>
+                   </li>
+                </ul>
+
+            </nav>
+        </header>
+        <main>
+              <!--lista ordenada-->
+             <h1>Registro</h1>
+            <form action="validar.php">
+              <div>
+                <label for="nombre">Ingrese su nombre:</label>
+                <input type="text" name="nombre" id="nombre" placeholder="nombre" required> 
+              </div>
+              <div>
+                <label for="apellido">Ingrese su apellido:</label>
+                <input type="text" name="apellido" id="apellido" placeholder="apellido" required> 
+              </div>
+              <div>
+                <label for="email">Ingrese su email:</label>
+                <input type="email" name="email" id="email" placeholder="email" required> 
+              </div>
+              <div>
+                <label for="password">Ingrese su password:</label>
+                <input type="password" name="password" id="password" placeholder="password" required> 
+              </div>              
+              <div>
+                <label for="nacimiento">Ingrese su fecha de nacimiento:</label>
+                <input type="date" name="nacimiento" id="nacimiento" placeholder="nacimiento" required> 
+              </div>
+              <div>
+                <label for="pais">Ingrese país:</label>
+                <Select name="pais" id="pais" multiple size="3">
+                  <option value="AR">Argentina</option>
+                  <option value="BR" selected>Brasil</option>
+                  <option value="CL">Chile</option>
+                  <option value="UY">Uruguay</option>
+                </Select>
+              </div>
+              
+              <div>
+                <label for="terminos">Acepte términos y condiciones</label>
+                <input type="checkbox" value="1" name="terminos" id="terminos" checked required> 
+                <!--
+                <input type="radio" value="1" name="terminos" checked> SI
+                <input type="radio" value="2" name="terminos" unchecked> NO
+                -->
+              </div>
+              <div>
+              <textarea name="comentario" id="comentario" cols="30" rows="10" placeholder="Ingrese su comentario"></textarea>
+              </div>
+              <div>
+                <input type="reset" value="Resetear">
+                <input type="submit" value="Registrarse">
+                <button id="Imprimir">Imprimir</button>
+
+              </div>
+
+            </form>
+        </main>
+        <footer>
+
+        </footer>
+        
+    </body>
+</html>

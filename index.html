@@ -1,0 +1,123 @@
+<!DOCTYPE html> <!--esta etiqueta es la que indica que todo esta pagina web esta realizada en html5-->
+<html lang="es"><!--esta es la etiqueta padre de toda la pagina web y tiene un atributo que es lang, lenguaje y lo cambiamos a español-->
+    <!--configuraciones para el navegador-->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--titulo de la pagina web-->
+        <title>CodoFlix | Catalogo de Peliculas</title>
+        <!--etiqueta del icono de la pagina web-->
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <!--etiqueta de iconos de las redes sociales de la pagina web-->
+        <script src="https://kit.fontawesome.com/814bc0b9ee.js" crossorigin="anonymous"></script>   
+        <!--estilos de css-->
+        <link rel="stylesheet" href="./css/estilos.css">
+      </head>
+    <!--etiqueta contenedora de la estructura semantica de la pagina web que vera el usuario-->
+    <body>
+        <header id="header" class="fondoRosa">
+            <!--etiqueta contenedora de la nav-->
+            <nav>
+               <!-- <img src="https://img.freepik.com/vector-gratis/personaje-dibujos-animados-gatito-ojos-dulces_1308-133242.jpg" alt="Logo Codoflix es un logo que representa a un video">-->
+               <a href="#">
+                <img src="./assets/img/logo_640.png" alt="logo imagen" width="100" loading="lazy">
+               </a>
+              
+                <!--listas ordenadas y desordenadas-->
+                          
+                <ul>
+                    
+                   <li>
+                     <a href="#tendencia">Tendencias</a>
+                   </li>
+                   <li>
+                     <a href="./pages/registrarse.html">Registrarse</a>
+                   </li>
+                   <li>
+                     <a href="./pages/iniciosesion.html">Iniciar Sesión</a>
+                   </li>
+                   <li>
+                      <a href="https://www.google.com/" target="_blank">Google</a>
+                   </li>
+                </ul>
+
+            </nav>
+        </header>
+        <main>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit placeat tenetur error maiores? Distinctio fugiat atque reprehenderit at, deleniti omnis possimus architecto sunt eveniet beatae saepe cum ullam cupiditate officia?</p>
+
+          <section id="principal">
+            <h1>Películas y series ilimitadas
+              en un solo lugar</h1>
+              <h2 id="h2" class="bgColor bgRosa">Disfruta donde quieras.</h2>
+              <h2>Cancela en cualquier momento.</h2>
+              <a href="./pages/registrarse.html">Registrate</a>
+          </section>
+          <section>
+            <h2>¿Qué estas buscando para ver?</h2>
+            <form action="">
+              <input type="text" placeholder="Buscar..." id="buscar" name="buscar" required>
+              <input type="submit" value="Buscar" id="btnbuscar" name="btnbuscar">
+
+            </form>
+            <hr>
+          </section>
+          <section id="tendencia">
+            <h2>Las tendencias de hoy</h2>
+            <a href="./pages/detalle.html">
+              <div> 
+                <img src="./assets/img/peli_4.jpg" alt="nombre de pelicula"> 
+                  <h3>Titulo de pelicula</h3> 
+              </div>
+            </a>
+            <a href="./pages/detalle.html">
+              <div>
+                <img src="./assets/img/peli_5.jpg" alt="nombre de pelicula"> 
+                <h3>Titulo de pelicula</h3> 
+              </div>
+            </a>
+            <a href="./pages/detalle.html">
+            
+            <div><img src="./assets/img/peli_6.jpg" alt="nombre de pelicula"> <h3>Titulo de pelicula</h3> </div>
+          </a>
+            <div><img src="./assets/img/peli_8.jpg" alt="nombre de pelicula"> <h3>Titulo de pelicula</h3> </div>
+          </a>
+            <button>Anterior</button>
+          <button>Siguiente</button>
+          </section>
+          <hr>
+          <section>
+            <h2>Las más aclamadas</h2>
+
+            <img src="./assets/img/aclamada_1.jpg" alt="nombre de la aclamada">
+            <img src="./assets/img/aclamada_2.jpg" alt="nombre de la aclamada">
+            <img src="./assets/img/aclamada_3.jpg" alt="nombre de la aclamada">
+            <img src="./assets/img/aclamada_4.jpg" alt="nombre de la aclamada">
+
+          </section>
+          <section>
+            <h2 class="colorVioleta fuenteMediana">Párrafos</h2>
+            <p class="colorVioleta">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui a quis, voluptates dolores omnis tempore, quisquam, eaque iusto sed suscipit quae ea itaque distinctio! Nemo dolor possimus sint rem at?</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui a quis, voluptates dolores omnis tempore, quisquam, eaque iusto sed suscipit quae ea itaque distinctio! Nemo dolor possimus sint rem at?</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui a quis, voluptates dolores omnis tempore, quisquam, eaque iusto sed suscipit quae ea itaque distinctio! Nemo dolor possimus sint rem at?</p>
+          </section>
+
+        </main>
+        <footer>
+          
+          <nav>
+            <li><a href="">Términos y condiciones</a> </li>
+            <li><a href="">Preguntas Frecuentes</a></li>
+            <li><a href="">Ayuda</a></li>
+            <li><a href="">Administrador Peliculas</a></li>
+          </nav>
+          <a href="#principal">
+            <i class="fa-solid fa-arrow-up"></i>
+          </a>
+
+          <p>Todos los derechos reservados.</p>
+
+        </footer>
+        
+    </body>
+</html>

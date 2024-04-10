@@ -1,0 +1,88 @@
+<!DOCTYPE html> <!--esta etiqueta es la que indica que todo esta pagina web esta realizada en html5-->
+<html lang="es"><!--esta es la etiqueta padre de toda la pagina web y tiene un atributo que es lang, lenguaje y lo cambiamos a español-->
+    <!--configuraciones para el navegador-->
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--titulo de la pagina web-->
+        <title>CodoFlix | Catalogo de Peliculas</title>
+        <!--etiqueta del icono de la pagina web-->
+        
+    </head>
+    <!--etiqueta contenedora de la estructura semantica de la pagina web que vera el usuario-->
+    <body>
+        <header>
+            <!--etiqueta contenedora de la nav-->
+            <nav>
+               <!-- <img src="https://img.freepik.com/vector-gratis/personaje-dibujos-animados-gatito-ojos-dulces_1308-133242.jpg" alt="Logo Codoflix es un logo que representa a un video">-->
+               <a href="#">
+                <img src="./assets/img/logo_640.png" alt="logo imagen" width="100" loading="lazy">
+               </a>
+              
+                <!--listas ordenadas y desordenadas-->
+                          
+                <ul>
+                    
+                   <li>
+                     <a href="">Tendencias</a>
+                   </li>
+                   <li>
+                     <a href="./pages/registrarse.html">Registrarse</a>
+                   </li>
+                   <li>
+                     <a href="./pages/iniciosesion.html">Iniciar Sesión</a>
+                   </li>
+                   <li>
+                      <a href="https://www.google.com/" target="_blank">Google</a>
+                   </li>
+                </ul>
+
+            </nav>
+        </header>
+        <main>
+              <!--lista ordenada-->
+              <ol>
+                <li>Ver la cartelera</li>
+                <li>Elegir la pelicula</li>
+                <li>Comprar la entrada</li>
+                <li>Disfrutar la pelicula</li>
+              </ol>
+
+<!-- Agregar Mapa Google -->
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.0895671111666!2d-58.47027932439335!3d-34.60189657295494!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb601e39a7ef9%3A0x8c64813698ffee57!2sAv.%20S.%20Mart%C3%ADn%203057%2C%20C1416%20Cdad.%20Aut%C3%B3noma%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1711802914498!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<!-- Agregar video de youtube-->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/z5ORhYn0WP0?si=UjxesYHC8kjDm8AN&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<!-- Agregar video propio-->
+
+            <video width="660" height="440" autoplay muted loop controls>
+              <source src="./assets/video/199294-909903183_tiny.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+
+            <table>
+              <tr>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Edad</th>
+              </tr>
+              <tr>
+                <td>Carlos</td>
+                <td>Sanchez</td>
+                <td>25</td>                
+              </tr>
+              <tr>
+                <td>Sonia</td>
+                <td>Perez</td>
+                <td>39</td>                
+              </tr>
+
+            </table>
+
+
+        </main>
+        <footer>
+
+        </footer>
+        
+    </body>
+</html>

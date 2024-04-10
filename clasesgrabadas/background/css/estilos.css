@@ -1,0 +1,79 @@
+/*importar fuente de google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/*reset de valores*/
+body{
+    font-family: "Roboto", sans-serif;
+    background-color: pink;
+}
+/*estilos del header*/
+/*
+body{
+    height:800px;
+}*/
+
+    
+
+.header{
+    background-image: linear-gradient(to top, #a7c0e6, #adb7ec, #bdaced, #d49ee5, #eb8ed4);
+    background-image: url(../4625307.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;    
+    
+    /*valor absoluto al alto del contendor*/
+   height: 500px;
+    height: 10vh; /*1vh = 1% de el tamaño del alto del navegador*/
+    width: 50%;
+     height: 50%;/*el porcentaje en el alto solo lo podemos usar cuando el padre del elemento tiene establecido un valor, ese valor puede ver de una unidad absoluta como los px o de una unidad relativa vh o de un %*/
+   height: 25vh;
+
+
+    ul{
+        list-style: none;
+    
+        a{
+            text-decoration: none;
+            color: #f7048e;
+        }
+    }
+    
+
+}
+/*estilos de main*/
+.sectionPrincipal{
+    color:white;
+    /*height:60vh;*/
+    min-height: 60vh;
+    overflow: hidden;/*cuando veamos animaciones este valor es super util*/
+    overflow: scroll;
+    overflow: auto;
+    background-image: linear-gradient(to top, #0000008c, #0000008c),url("../stock-vector-kids-toys-d-vector-icon-set-portable-console-robot-toy-rocket-teddy-bear-joystick-ufo-toy-2282749987.jpg");
+   /* background-image: url("../assets/img/header.jpg");*/
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment: fixed;
+    h1{
+        font-size: 2.5rem;
+        font-weight: 700;
+        font-style: italic;
+    }
+
+    p{
+        line-height: 1.5; 
+        text-align: justify;
+        font-size: 1.2rem;
+    }
+}
+
+.fa-brands, .fa-solid{
+    font-size: 50px;
+    color: #b00259;
+}   
+
+footer{
+    background-color:aquamarine;
+}
+
+

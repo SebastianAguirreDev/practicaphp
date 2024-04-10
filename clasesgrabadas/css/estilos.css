@@ -1,0 +1,60 @@
+/*importar fuente de google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+/*reset de valores*/
+
+/*agregar una fuente propia que luego se va a poder utilizar*/
+@font-face {
+    font-family: "Poppins-Regular",sans-serif;
+    src: url("../assets/font/Poppins/Poppins-Regular.ttf");
+}
+@font-face {
+    font-family: "Poppins-Thin",sans-serif;
+    src: url("../assets/font/Poppins/Poppins-Thin.ttf");
+}
+h1{
+    font-family: "Roboto", sans-serif;
+    font-size: 1rem;
+    font-size: 50px;
+    
+    font-weight: 700;/*negrita*/
+    /*font-weight:400;regular*/
+    font-style: italic;
+    text-transform: uppercase;/*mayuscula*/
+   /* text-transform: lowercase;/*minuscula*/
+   /* text-transform: capitalize;/*primera letra de cada palabra en mayuscula*/
+}
+
+p{
+    font-family: "Poppins-Regular",sans-serif;
+    line-height: 2; 
+    text-align: justify;
+   /* text-align: center;*/
+
+    font-size: 16px; /*absoluto*/
+    font-size: 1rem; /*relativo 1rem = tamaño de fuente que eligio el usuario en su navegador*/
+    font-size: 1.25rem;
+
+}
+.fa-solid{
+    font-size: 50px;
+    color: #b00259;
+} 
+.fa-brands{
+    font-size: 100px;
+    color: blue;
+}   
+/*
+.fa-brands, .fa-solid{
+    font-size: 50px;
+    color: #b00259;
+} 
+*/  
+ul{
+    list-style: none;
+    a{
+        text-decoration: none;
+        color: #f7048e;
+    }
+}
+

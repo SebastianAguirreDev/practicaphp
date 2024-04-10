@@ -1,0 +1,40 @@
+/*
+comentario multilinea
+*/
+h1{color:#924727;}
+.colorVioleta{
+    color:violet;
+}
+.fuenteMediana{
+font-size: 30px;
+}
+/*
+p{font-size: 20px;
+text-align: justify;
+color: blue;
+background-color: #c5c4c1;
+}
+*/
+#header{
+padding: 20px;
+text-align: center;    
+}
+.fondoRosa{
+    background-color: pink;
+}
+#h2{
+    background-color: orange;
+}
+.bgRosa{
+    background-color: pink;
+    }
+.bgColor{
+background-color: violet;
+background-color: yellowgreen;
+}
+.colorRojo{
+    color:red;
+}
+.colorRosa{
+    color:pink;
+}

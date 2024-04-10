@@ -1,0 +1,47 @@
+
+/*@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*/
+
+
+
+
+@font-face {
+    font-family: 'Noto Sans';
+    src: url(../assets/fonts/Noto_Sans/NotoSans-VariableFont_wdth\,wght.ttf);
+}
+
+*{
+    font-family: "Noto Sans", sans-serif;
+}
+
+
+/*
+
+comentario multilinea
+*/
+/*
+.main .seccionDetalle{
+background-color: pink;  
+color:yellow;  
+}
+
+main .seccionDetalle{
+  color:aqua;
+  font-size: 50px;  
+}
+
+.seccionDetalle{
+    background-color: green;
+    color:white;
+    text-align: center;
+    font-size: 30px;
+}
+*/
+.main{
+    background-color: green;  
+    .seccionDetalle{
+    background-color: pink;  
+    color:blue;  
+    font-size: 30px;
+    }
+}
